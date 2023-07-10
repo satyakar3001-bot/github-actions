@@ -1,0 +1,12 @@
+name: First Workflow
+on: workflow_dispatch
+
+jobs:
+    first-job:
+        runs-on: ubuntu-latest #search github action  runners
+        steps:
+            - name: Print greeting
+              run: echo "Hello Satu !"
+            - name: Print Good bye greet
+              run: echo "See You again !" 
+        
