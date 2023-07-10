@@ -6,7 +6,9 @@ jobs:
         runs-on: ubuntu-latest #search github action  runners
         steps:
             - name: Print greeting
-              run: echo "Hello Satu !"
+              run: |
+                    echo "Hello Satu !"
+                    echo "Learning Github Actions ? "
             - name: Print Good bye greet
               run: echo "See You again !" 
         
